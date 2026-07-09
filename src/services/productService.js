@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // This will be updated with Render URL after deployment
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_URL = 'https://backend-product-api-3.onrender.com';
 
 const api = axios.create({
   baseURL: API_URL,
